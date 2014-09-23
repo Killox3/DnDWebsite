@@ -1,0 +1,42 @@
+body{
+    background-color:#eee;
+}
+tbody{
+  font-family:Open Sans;
+  font-size:24px;
+}
+thead{
+  font-family:Open Sans;
+  font-size:24px;
+}
+tr{
+  padding:5px;
+}
+td, th, tr{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+table{
+  text-align:center;
+  border-collapse:collapse;
+  border-spacing: 0;
+  border: medium inset black;
+  border-radius: 25px;
+  margin: 30px auto;
+  position: relative;
+  background-color:#ddd;
+}
+
+.button{
+  border-radius: 15px;
+  padding:15px;
+	border: 2px solid #fff;
+	background: rgb(66, 184, 221);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	color:white;
+	margin: auto;
+	text-align: center;
+	font-size:110%;
+	font-family:trebuchet;
+	display:inline-block;
+}
