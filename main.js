@@ -1,11 +1,23 @@
-//Dice Roller Function
+/*Dice Roller Function
+ rollD(x) returns a interger randomly selcted between 1 and x */
 function rollD (x) {
   var rolled = 0;
   rolled = Math.ceil(Math.random() * x);
   return rolled;
 }
 
+/* Ability Modifier Calculation Function 
+  takes an ability score and returns the resulting ability modifier*/
 
+function abilityMod(x) {
+  var mod = 0;
+  mod = Math.floor((x-10)/2);
+  return mod;
+}
+
+function isNumber(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n);
+}
 
 document.querySelector("#D4").innerHTML = rollD(4);
 document.querySelector("#D6").innerHTML = rollD(6);
