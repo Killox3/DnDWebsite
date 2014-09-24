@@ -25,4 +25,4 @@ document.querySelector("#D8").innerHTML = rollD(8);
 document.querySelector("#D10").innerHTML = rollD(10);
 document.querySelector("#D12").innerHTML = rollD(12);
 document.querySelector("#D20").innerHTML = rollD(20);
-
+document.querySelector(placeholder="#strMod").innerHTML = abilityMod($("#str").val());
